@@ -120,3 +120,34 @@ main {
     top: -25%;
 }
 
+@media (max-width:990px) {
+
+    main {
+        width: 650px;
+        margin-left: -325px;
+        height: 95vh;
+        margin-top: -47.5vh;
+    }
+    
+    #main-text {
+        width: 75%;
+        margin-bottom: 8.7rem;
+    }
+
+    #boxes {
+        justify-content: space-around;
+        height: 375px;
+    }
+
+    #boxes > div {
+        width: 205px;
+        height: 215px;
+    }
+
+    #boxes > div p {
+        font-size: 0.8rem;
+        margin-bottom: 0.95rem;
+    }
+    
+}
+
